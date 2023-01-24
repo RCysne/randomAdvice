@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-color: hsl(228, 45%, 44%);
+  --cyan-color: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  width: 375px;
+  height: 100%;
+  background-color:var(--dark-blue);
+}
+
+.container {
+  margin: 20vh auto;
+  background-color: var(--dark-grayish-blue);
+  width: 85%;
+  height: 50vh;
+  border-radius: 10px;
+  position: relative;
+}
+
+#main-text {
+  margin: 0 auto;
+  width: 85%
+}
+
+#main-text p {
+  padding-top: 2rem;
+  text-align: center;
+  color: var(--neon-green);
+  width: 100%;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
+#main-text h2 {
+  padding-top: 36px;
+  text-align: center;
+  color: var(--cyan-color);
+  font-size: 1rem;
+  width: 100%;
+}
+
+.divider {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-change {
+  background-color: var(--neon-green);
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2.5rem;
+  line-height: 50%;
+  position: absolute;
+  bottom: -30px;
+  cursor: pointer;
+}
+
+#btn-change:hover {
+  background-color: hsl(150, 100%, 75%);
+  box-shadow: 0px 0px 5px hsl(150, 100%, 75%);
+}
+
+.attribution {
+  font-size: .5rem;
+}
+
+@media (min-width: 376px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
+
+  #main-text h2 {
+    margin-inline:  auto;
+    width: 70%;
+  }
+}
