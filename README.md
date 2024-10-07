@@ -29,3 +29,7 @@ Ao clicar no botão, você receberá um conselho. A cada novo clique, um conselh
 
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório e enviar pull requests com melhorias.
+
+![advice-01](https://github.com/RCysne/randomAdvice/blob/main/images/advice-01.png)
+![advice-02](https://github.com/RCysne/randomAdvice/blob/main/images/advice-02.png)
+![advice-03](https://github.com/RCysne/randomAdvice/blob/main/images/advice-03.png)
