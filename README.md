@@ -1,4 +1,4 @@
-Advice Generator
+# Advice Generator
 Este é um projeto simples de uma aplicação de geração de conselhos desenvolvida com HTML, CSS e JavaScript. A aplicação consome a API AdviceSlip e exibe um novo conselho a cada vez que o usuário clica no botão.
 
 Funcionalidades
