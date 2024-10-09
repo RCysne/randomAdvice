@@ -15,7 +15,7 @@ Como Utilizar
 Clone este repositório:
 
 Copiar código
-git clone https://github.com/seu-usuario/advice-generator.git
+git clone https://github.com/RCysne/randomAdvice.git
 Abra o arquivo index.html no seu navegador.
 
 Clique no botão e um novo conselho será exibido.
